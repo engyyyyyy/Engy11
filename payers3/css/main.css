@@ -1,0 +1,294 @@
+/*** Start General ***/
+
+body{
+    font-family: 'Changa', sans-serif;
+}
+
+/*** Start General ***/
+
+
+/*** Start Home Section ***/
+
+.signup{
+    background: url(../img/Rectangle_14.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.signup .overlay{
+    width: 100%;
+     height: 100%;
+    background: rgba(73, 93, 191, 0.5);
+}
+.signup .upperbar{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.signup .upperbar a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.signup .upperbar a:hover,
+.signup .upperbar a:focus
+{
+    text-decoration: none;
+}
+.signup .upperbar a i{
+    margin-right: 10px;
+}
+.signup .content{
+
+}
+.signup .content .form{
+    background: #fff;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+    width: 470px;
+    height: 568px;
+
+}
+.signup .content .form .logo-container{
+  width: 113px;
+ height: 30px;
+ margin-bottom:30px;
+ margin-top: 30PX;
+
+
+
+
+}
+.signup .content .form .logo-container img{
+     width: 100%;
+    height: 100%;
+    position:relative;
+    margin-right: 100% !important;
+    right:50%;
+
+
+
+}
+ .form-group .btn{
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 61px;
+ background-color: #fafafc;
+ color: #0f2460;
+ font-family: "Inter UI - Regular" !important;
+ font-size: 16px;
+ font-weight: 400;
+ margin-right: 20PX;
+  margin-left: 20px !important;
+}
+
+.btn-link:hover{
+  text-decoration: none;
+}
+.label1{
+width: 401px;
+height: 61px;
+box-shadow: inset 1px 1px 3px #e4e7ed;
+border-radius: 5px;
+border: 1px solid #e8ebf2;
+background-color: #ffffff;
+margin-right: 20PX;
+ margin-left: 20px !important;
+text-align: left;
+direction:ltr;
+margin-bottom: 30px;
+border-style: solid;
+box-shadow: #4C4843;
+}
+.label1 label{
+  direction:ltr;
+color: #0f2460;
+font-family: "Inter UI - Regular";
+font-size: 11px;
+font-weight: 400;
+}
+.label1 input{
+
+height: 17px;
+color: #657399;
+font-family: "Inter UI - Regular";
+font-size: 14px;
+font-weight: 400;
+margin-bottom:30px;
+}
+.signup .content .form form{
+    margin-top: 30px;
+}
+.signup .content .form form .row{
+    margin: 0;
+}
+.signup .content .form form .input-small{
+
+}
+.signup .content .form form .input-small:first-child{
+    max-width: 47.5%;
+    /* margin-left: 2.5%; */
+}
+.signup .content .form form .input-small:last-child{
+    max-width: 47.5%;
+    margin-right: 2.5%;
+}
+.signup .content .form form .input-larg{
+    height: 60px;
+    padding-top: 25px;
+}
+.signup .content .form form .input-small,
+.signup .content .form form .input-larg
+{
+    margin-bottom: 20px;
+}
+.signup .content .form form .form-group{
+    position: relative;
+    text-align: left !important;
+}
+.label1 label{
+    position: absolute;
+    display: block;
+    left: 15px;
+    top: 5px;
+    direction: rtl;
+    height: 13px;
+color: #0f2460;
+font-family: "Inter UI - Bold";
+font-size: 11px;
+font-weight: 700;
+}
+#label span{
+  direction:rtl;
+  float:right;
+
+
+  width: 79px;
+
+  height: 13px;
+
+  color: #0f2460 !important;
+
+  font-family: "Inter UI - Regular" !important;
+
+  font-size: 11px !important;
+
+  font-weight: 400 !important;
+}
+#label input{
+
+  direction:rtl;
+  float:right;
+border-radius: 3px;
+background-color: #ffffff;
+
+}
+#checkbox{
+  width: 30px;
+height: 16px;
+border-radius: 3px !important;
+border: 1px solid #e8ebf2;
+background-color: #ffffff;
+}
+.btn-primary{
+  width: 133px;
+height: 51px;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33), inset 0 1px 1px 1px #4e80f8;
+border-radius: 5px;
+border: 1px solid #134eda;
+background-color: #1553e8;
+color: #ffffff;
+font-family: "Inter UI - Medium";
+font-size: 14px;
+font-weight: 500;
+margin-right:30px;
+}
+/* .logo-footer{
+  position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    width: 470px;
+height: 83px;
+border-radius: 0 0 15px 15px;
+background-color: #fafafc;
+right:0;
+margin-left: -30px !important; */
+
+}
+#img1{
+  width: 29px;
+height: 29px;
+background-color: #e8ebf2;
+
+
+}
+#img2{
+  width: 21px;
+height: 24px;
+
+
+
+}
+.form-control{
+  margin-bottom: 30px !important;
+
+}
+.paragraph span{
+
+color: #657399;
+font-family: "Inter UI - Regular";
+font-size: 12px;
+font-weight: 400;
+}
+.footer-container {
+color: #657399 !important;
+font-family: "Inter UI - Regular" !important;
+
+font-size: 12px !important;
+
+font-weight: 400 !important;
+margin-left: 22px;
+}
+.footer-container{
+  margin-top:12% !important;
+  width: 470px;
+margin-right:-20px;
+height: 83px;
+border-radius: 0 0 15px 15px;
+background-color: #fafafc;
+margin-right: -20px !important;
+bottom:0;
+}
+.footer-container .content1{
+  margin-top: 5%;
+color: #657399;
+font-family: "Inter UI - Regular";
+font-size: 11px;
+font-weight: bold !important;
+
+text-align: right;
+letter-spacing:-1px;
+z-index: 1;
+}
+.footer-container .content2{
+  width: 173px;
+  height: 13px;
+  color: #657399;
+  font-family: "Inter UI - Regular";
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 5%;
+  text-align: left;
+  letter-spacing:-1px;
+}
+/* #img3{
+  margin-left:30px;
+  z-index: 2;
+} */

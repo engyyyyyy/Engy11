@@ -1,0 +1,211 @@
+/*** Start General ***/
+
+body{
+    font-family: 'Changa', sans-serif;
+}
+
+/*** Start General ***/
+
+
+/*** Start Home Section ***/
+
+.signup{
+    background: url(../img/Rectangle_14.png) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.signup .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 93, 191, 0.5);
+}
+.signup .upperbar{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.signup .upperbar a{
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.signup .upperbar a:hover,
+.signup .upperbar a:focus
+{
+    text-decoration: none;
+}
+.signup .upperbar a i{
+    margin-right: 10px;
+}
+.signup .content{
+
+}
+.signup .content .form{
+    background: #fff;
+    max-width: 400px;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -3px rgba(0,0,0,0.5);
+}
+.signup .content .form .logo-container{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: auto;
+}
+.signup .content .form .logo-container img{
+    widows: 100%;
+    height: 100%;
+}
+.signup .content .form h3{
+    padding: 10px;
+    background: #eee;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+}
+.signup .content .form form{
+    margin-top: 30px;
+}
+.signup .content .form form .row{
+    margin: 0;
+}
+.signup .content .form form .input-small{
+
+}
+.signup .content .form form .input-small:first-child{
+    max-width: 47.5%;
+    margin-left: 2.5%;
+}
+.signup .content .form form .input-small:last-child{
+    max-width: 47.5%;
+    margin-right: 2.5%;
+}
+.signup .content .form form .input-larg{
+    height: 60px;
+    padding-top: 25px;
+}
+.signup .content .form form .input-small,
+.signup .content .form form .input-larg
+{
+    margin-bottom: 20px;
+}
+.signup .content .form form .form-group{
+    position: relative;
+    text-align: right;
+}
+.signup .content .form form label{
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/*** Start Home Section ***/
+.signup .content .form .card{
+    margin-top: 30px;
+    width:100%;
+    height:100%;
+}
+.signup .content .form .card .row{
+    margin: 0;
+}
+.signup .upperbar1{
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: right;
+}
+.signup .upperbar1 a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.signup .upperbar1 a:hover,
+.signup .upperbar1 a:focus
+{
+    text-decoration: none;
+}
+.signup .upperbar1 a i{
+    margin-right: 10px;
+}
+.upperbar1 p{
+  font-size: 12px;
+  color:#fff;
+  font-weight: lighter;
+}
+.signup .content .form h6{
+    padding: 10px;
+    border-radius: 10px;
+    text-align:right;
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-top: -10px;
+}
+.info h5{
+  text-align: right;
+  font-size: 13px;
+  font-weight: lighter;
+  color: #555;
+}
+.info p{
+  text-align: right;
+  font-size: 17px;
+  font-weight: 300;
+  color: #000;
+}
+.info span{
+  text-align: right;
+  font-size: 10px;
+  font-weight: lighter;
+  color: #555;
+  letter-spacing:0.5;
+  float:right;
+  line-height:2px;
+}
+
+header {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.jubmtron {
+
+    padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 100%;
+  }
+  .card{
+    width:100%;
+    height:100%;
+    border-radius:5px;
+    background-color: #fff;
+  }
+
+
+
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
